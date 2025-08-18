@@ -1,18 +1,18 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Ayush Jain",
+    "label": "Undergrad",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "by.ayushjain@gmail.com",
+    "phone": "",
+    "url": "https://aywhoosh.github.io",
+    "summary": "Final year undergrad based in India. Eyeing a start in NLP.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "Sector 14",
+      "postalCode": "121007",
+      "city": "Faridabad",
+      "countryCode": "IND",
+      "region": "Haryana"
     },
     "profiles": [
       {
@@ -151,7 +151,7 @@
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Hindi",
       "fluency": "Native speaker",
       "icon": ""
     },
@@ -163,7 +163,7 @@
   ],
   "interests": [
     {
-      "name": "Physics",
+      "name": "NLP",
       "icon": "fa-solid fa-tag",
       "keywords": [
         "Quantum Mechanics",
@@ -189,12 +189,12 @@
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Intelligent Retinal Imaging System",
+      "summary": "Utilizing smartphone cameras for pre-liminary diagnosis of eye diseases.",
+      "highlights": ["Computer Vision"],
+      "startDate": "2024-11-01",
+      "endDate": "Present",
+      "url": "https://github.com/aywhoosh/IRIS"
     }
   ]
 }
