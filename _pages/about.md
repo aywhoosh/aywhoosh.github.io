@@ -10,7 +10,6 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Sector 14, Faridabad</p>
-    <p>123 your address street</p>
     <p>Haryana, India</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
