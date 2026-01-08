@@ -4,8 +4,9 @@ title: IRIS
 description: AI-powered mobile diagnostic tool for retinal disease screening
 img: assets/img/projects/iris/hero.jpg
 importance: 1
-category: work
-related_publications: false
+category: self
+selected: true
+date: 2025-05-04
 github: "https://github.com/aywhoosh/IRIS"
 ---
 
