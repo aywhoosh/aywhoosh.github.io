@@ -30,13 +30,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/people/";
-          },
         },{id: "dropdown-bookshelf",
               title: "bookshelf",
               description: "",
@@ -430,9 +423,9 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-iris",
+          title: 'IRIS',
+          description: "Intelligent Retinal Imaging System (Flutter + FastAPI + Supabase + AWS EC2)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
@@ -488,6 +481,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://github.com/aywhoosh", "_blank");
+        },
+      },{
+        id: 'social-leetcode',
+        title: 'LeetCode',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://leetcode.com/u/awry/", "_blank");
         },
       },{
         id: 'social-linkedin',
