@@ -1,0 +1,39 @@
+<div class="projects">
+  {% if page.recent_projects.limit %}
+    {% assign recent_limit = page.recent_projects.limit %}
+  {% else %}
+    {% assign recent_limit = 3 %}
+  {% endif %}
+
+  {% if page.recent_projects.selected_only %}
+    {% assign filtered_projects = site.projects | where: "selected", true %}
+  {% else %}
+    {% assign filtered_projects = site.projects %}
+  {% endif %}
+
+  {% assign sorted_projects = filtered_projects | sort: "date" | reverse %}
+
+  <div class="row row-cols-1 row-cols-md-3">
+    {% for project in sorted_projects limit: recent_limit %}
+      <div class="col mb-4">
+        <a href="{{ project.url | relative_url }}">
+          <div class="card hoverable h-100">
+            {% if project.img %}
+              <img src="{{ project.img | relative_url }}" class="card-img-top" alt="{{ project.title }}">
+            {% endif %}
+            <div class="card-body">
+              <h5 class="card-title">{{ project.title }}</h5>
+              <p class="card-text">{{ project.description }}</p>
+              {% if project.github %}
+                <div class="mt-2">
+                  <i class="fa-brands fa-github"></i>
+                  <small class="text-muted">GitHub</small>
+                </div>
+              {% endif %}
+            </div>
+          </div>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+</div>
