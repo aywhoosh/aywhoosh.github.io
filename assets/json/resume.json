@@ -31,8 +31,8 @@
     {
       "name": "IndianOil Corporation Ltd.",
       "position": "Machine Learning Intern",
-      "url": "https://iocl.com",
-      "startDate": "2025-05-01",
+      "url": "https://drive.google.com/file/d/1JVoJ6CBtQWr0HGIZsgPd1qEX8zubb7p2/view?usp=sharing",
+      "startDate": "2025-05-30",
       "endDate": "2025-08-01",
       "summary": "Worked on an NLP project focused on extracting actionable insights from large volumes of Google Reviews for IndianOil retail outlets using aspect-based sentiment analysis.",
       "highlights": [
@@ -72,7 +72,9 @@
       "name": "Natural Language Processing Specialization",
       "date": "2025",
       "issuer": "DeepLearning.AI",
-      "url": "",
+      "url": "https://www.coursera.org/account/accomplishments/specialization/L8VW0YKW1LB8"
+      
+      ,
       "icon": "fa-solid fa-certificate"
     },
     {
@@ -85,7 +87,7 @@
   ],
   "projects": [
     {
-      "name": "IRIS – Intelligent Retinal Imaging System",
+      "name": "IRIS – Intelligent Retinal Imaging System (Link)",
       "summary": "A backend system for retinal image classification, designed to provide fast and reliable inference through a deployed API.",
       "highlights": [
         "Designed and deployed an inference API using FastAPI and Docker on AWS EC2.",
