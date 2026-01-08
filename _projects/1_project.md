@@ -11,7 +11,18 @@ github: "https://github.com/aywhoosh/IRIS"
 
 Modern healthcare infrastructure struggles to provide timely ocular screening in underserved areas. IRIS addresses this by putting diagnostic-grade retinal imaging directly into clinicians' hands through a mobile-first application powered by few-shot learning.
 
-The system handles the complete diagnostic workflow: capture or upload a retinal fundus image, run inference against a fine-tuned DenseNet121 backbone with Prototypical Networks, and return structured results with confidence scores and clinical recommendations—all within 2-3 seconds. Watch the [complete diagnostic workflow](https://youtu.be/2kp05iu2q0g) in action.
+The system handles the complete diagnostic workflow: capture or upload a retinal fundus image, run inference against a fine-tuned DenseNet121 backbone with Prototypical Networks, and return structured results with confidence scores and clinical recommendations—all within 2-3 seconds.
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/2kp05iu2q0g" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
+<div class="caption">
+    Complete diagnostic workflow demonstration
+</div>
 
 ## Technical Architecture
 
