@@ -425,7 +425,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-iris",
           title: 'IRIS',
-          description: "Intelligent Retinal Imaging System (Flutter + FastAPI + Supabase + AWS EC2)",
+          description: "AI-powered mobile diagnostic tool for retinal disease screening",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
