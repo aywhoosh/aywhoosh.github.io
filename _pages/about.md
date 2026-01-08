@@ -9,8 +9,8 @@ profile:
   image: pfp.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Sector 14, Faridabad</p>
-    <p>Haryana, India</p>
+    <p>Janak Park, Harinagar</p>
+    <p>New Delhi, India</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
