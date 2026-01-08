@@ -1,7 +1,7 @@
 ---
 layout: page
 title: IRIS
-description: Intelligent Retinal Imaging System (Flutter + FastAPI + Supabase + AWS EC2)
+description: my take on an app to diagnose eye-diseases via a smartphone.
 img: assets/img/projects/iris/hero.jpg
 importance: 1
 category: work
