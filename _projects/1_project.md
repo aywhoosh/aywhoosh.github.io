@@ -6,7 +6,7 @@ img: assets/img/projects/iris/hero.jpg
 importance: 1
 category: work
 related_publications: false
-github: https://github.com/aywhoosh/IRIS
+github: "https://github.com/aywhoosh/IRIS"
 ---
 
 IRIS is an end-to-end, AI-powered mobile app for ocular disease screening.
